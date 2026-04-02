@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- For icons -->
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">MyPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle"><i class="fas fa-moon"></i></button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Hello, I’m <span class="highlight">Dipika Yadav</span></h1>
+                <p class="role">Python Developer</p>
+                <p class="description">Passionate about creating modern, responsive web experiences with cutting-edge design, 
+                    with added experience in data analysis, reporting, and data-driven problem solving.</p>
+                <div class="skills-badges">
+                    <span class="badge">HTML</span>
+                    <span class="badge">CSS</span>
+                    <span class="badge">JavaScript</span>
+                    <span class="badge">Python</span>
+                    <span class="badge">Django</span>
+                    <span class="badge">Git</span>
+                    <span class="badge">GitHub</span>
+                    <span class="badge">MySQL/SQLite</span>
+                    <span class="badge">SQL</span>
+                    <span class="badge">Excel</span>
+                    <span class="badge">PowerBI/Tabluau</span>
+                    <span class="badge">Data Visualisation</span>
+                </div>
+                <a href="#contact" class="cta-button">Get In Touch</a>
+            </div>
+            <div class="hero-image">
+                <img src="Image/Dpic2.jpg" alt="Dipika" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-card glass-card">
+               
+
+           <div class="about-content">
+
+            <!-- Image LEFT -->
+            <img src="Image/GirlAni.jpeg" alt="About" class="illustration">
+
+            <!-- Text RIGHT -->
+            <div class="about-text handwritten">
+                <p class="hand-line">I’m a creative developer passionate about modern web design.</p>
+                <p class="hand-line">I build intuitive and visually stunning websites.</p>
+                <p class="hand-line">Currently working as a Data Analyst Intern.</p>
+                <p class="hand-line">I love data analysis, reporting & data-driven insights.</p>
+            </div>
+
+        </div>
+
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+<section id="experience" class="experience">
+    <div class="container">
+        <h2>Experience</h2>
+
+        <div class="experience-container">
+
+            <!-- Experience 1 -->
+            <div class="experience-box glass-card">
+                <h3>Data Analyst Intern</h3>
+                <p class="company">Unified Mentor Private Limited</p>
+                <p class="duration">Jan 2026 – Present · Remote</p>
+
+                <ul>
+                    <li>Worked with Excel, SQL, Python, Power BI</li>
+                    <li>Data cleaning & analysis</li>
+                    <li>Dashboard & report creation</li>
+                    <li>Skills: Data Visualization, Analytical Skills</li>
+                </ul>
+            </div>
+
+            <!-- Experience 2 -->
+            <div class="experience-box glass-card">
+                <h3>Full Stack Python Developer Intern</h3>
+                <p class="company">Ypsilon IT Solutions Pvt Ltd Indore</p>
+                <p class="duration">Mar 2025 – Sep 2025 · On-site</p>
+
+                <ul>
+                    <li>Developed web apps using Python & Django</li>
+                    <li>Worked on backend & APIs</li>
+                    <li>Database integration</li>
+                    <li>Team collaboration on real projects</li>
+                    <li>Skills: Python, Django, MySQL, Web Development skills</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+ 
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card glass-card">
+                    <img src="Image/eAction.jpg" alt="eAction">
+                    <h3>eAction</h3>
+                    <p>Developed a full-stack Django auction platform with 
+                      secure bidding and online payments.Implemented admin/user 
+                      dashboards, authentication, and form validation for smooth transactions.</p>
+                    <a href="https://github.com/deep-yadav22/eAuction-website.git" class="">View Project</a>
+                </div>
+                
+                <div class="project-card glass-card">
+                    <img src="Image\FaceTrack.jpg" alt="FaceTrack">
+                    <h3>FaceTrack</h3>
+                    <p>Built an AI-based face recognition attendance 
+                       system for automated student identification.
+                       Integrated OpenCV with Django backend for 
+                       real-time attendance management.</p>
+                    <a href="https://github.com/deep-yadav22/Campus-Elect-Website" class="">View Project</a>
+                </div>
+                
+                <div class="project-card glass-card">
+                    <img src="Image/vating.jpg" alt="CampusElect">
+                    <h3>CampusElect</h3>
+                    <p>Developed a web-based college election system using 
+                      Python and Django for secure online voting.Implemented 
+                      authentication, admin controls, and real-time results using SQLite database.</p>
+                    <a href="https://github.com/deep-yadav22/Campus-Elect-Website.git" class="">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+
+        <div class="contact-info">
+
+            <!-- Phone -->
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <p>
+                    <a href="tel:+919340881118">+91 9340881118</a>
+                </p>
+            </div>
+
+            <!-- Email -->
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <p>
+                    <a href="mailto:dipika22yadav@gmail.com">
+                        dipika22yadav@gmail.com
+                    </a>
+                </p>
+            </div>
+
+            <!-- Location (Google Maps) -->
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>
+                    <a href="https://www.google.com/maps/search/Indore,+MP" target="_blank">
+                        Indore, MP
+                    </a>
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Social Links -->
+        <div class="social-icons">
+            <a href="https://github.com/" target="_blank" class="social-link">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/" target="_blank" class="social-link">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer glass-footer">
+        <div class="container">
+            <p>&copy; 2026 DIPIKA . All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
