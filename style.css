@@ -452,10 +452,23 @@ body {
     margin-bottom: 25px;
 } */
 
-.project-link {
-    color: var(--accent-orange);
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.project-links a {
     text-decoration: none;
-    font-weight: bold;
+    color: var(--accent-orange);
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.project-links a:hover {
+    color: #ffffff;
 }
 
 /* Contact Section */
